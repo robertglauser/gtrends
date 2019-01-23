@@ -1,8 +1,8 @@
-from datetime import datetime, timedelta, time
-from pytrends.request import TrendReq
-import pandas as pd
-import os
 import csv
+import os
+
+import pandas as pd
+from pytrends.request import TrendReq
 
 path = '/Users/Robert/PycharmProjects/gtrends'
 os.chdir(path)
